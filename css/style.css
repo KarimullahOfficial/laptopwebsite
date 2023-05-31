@@ -149,3 +149,37 @@ body {
   color: white;
   padding: 0 1rem;
 }
+.wrapper .log img {
+  max-width: 50%;
+}
+.wrapper input {
+  background-color: var(--light-white);
+  border-color: var(--gray);
+}
+.wrapper input:focus {
+  box-shadow: none;
+}
+.wrapper span {
+  background-color: var(--light-white);
+  border-color: var(--gray);
+}
+.wrapper .submit-btn {
+  padding: 15px;
+  font-weight: 500;
+}
+.wrapper .logn-with {
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.wrapper .logn-with,
+.wrapper .submit-btn :focus {
+  box-shadow: none;
+}
+.wrapper .logn-with img {
+  max-width: 8%;
+}
+.wrapper .logn-with:hover {
+  background-color: var(--gray);
+  color: var(--light-white);
+}
